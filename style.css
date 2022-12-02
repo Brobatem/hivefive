@@ -1,11 +1,11 @@
 body {
-  background-image: url("/image/bg2.jpg");
+  background-image: url(../image/bg2.jpg);
   background-repeat: no-repeat ;
   background-size: cover;
 }
 
 nav {
-  background-image: url("../image/banner-ungu-48.webp");
+  background-image: url(../image/banner-ungu-48.webp";
   background-repeat: no-repeat;
   background-size: cover;
 }
