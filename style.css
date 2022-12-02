@@ -1,0 +1,63 @@
+body {
+  background-image: url("/image/bg\ 1.jpg");
+  background-repeat: no-repeat ;
+  background-size: cover;
+}
+
+nav {
+  background-image: url("../image/banner-ungu-48.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+    
+nav ul li a {
+  border-radius: 20%;
+}
+
+nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.349);
+  border-radius: 20%;
+}
+
+nav ul li a img {
+  transition: ease-in-out 0.1s;
+}
+
+nav ul li a img:hover {
+  scale: 1.1;
+}
+
+#gambar img {
+  transition: ease-in-out 0.2s;
+}
+
+#gambar img:hover {
+  scale: 1.1;
+}
+
+.card h1,
+.card p {
+  font-size: small;
+}
+
+footer{
+  background-color: rgba(0, 0, 0, 0.352);
+}
+
+footer ul li {
+  list-style: none;
+  line-height: 2.3rem;
+}
+
+footer ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+footer p {
+  font-size: small;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
