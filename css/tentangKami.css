@@ -43,10 +43,15 @@ nav ul li a img:hover {
   overflow: hidden;
   transition: ease-in-out .3s;
 }
-.card img:hover{
-  scale: 1.1;
+
+.card-img-top{
   overflow: hidden;
 }
+
+.card img:hover{
+ scale: 1.1;
+}
+
 .card h5,
 .card p {
   font-size: medium;
