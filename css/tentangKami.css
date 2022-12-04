@@ -1,81 +1,107 @@
-body {
-  background-image: url("../image/bg3.jpg");
-  background-repeat: no-repeat ;
-  background-size: cover;
-}
+  body {
+    background-image: url("../image/bg3.jpg");
+    background-repeat: no-repeat ;
+    background-size: cover;
+    font-family: cursive;
+  }
 
-nav {
-  background-image: url("../image/bannerungu48.webp");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-      
-nav ul li a {
+  nav {
+    background-image: url("../image/bannerungu48.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+        
+  nav ul li a {
+    border-radius: 20%;
+  }
+    
+  nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.349);
   border-radius: 20%;
-}
-  
-nav ul li a:hover {
-background-color: rgba(0, 0, 0, 0.349);
-border-radius: 20%;
-}
+  }
 
-nav ul li a img {
-  transition: ease-in-out 0.1s;
-}
+  nav ul li a img {
+    transition: ease-in-out 0.1s;
+  }
 
-nav ul li a img:hover {
+  nav ul li a img:hover {
+    scale: 1.1;
+  }
+
+  #gambar img {
+    transition: ease-in-out 0.2s;
+  }
+
+  #gambar img:hover {
+    scale: 1.1;
+  }
+  .card{
+    border-bottom-right-radius: 20%;
+    overflow: hidden;
+    transition: ease-in-out .3s;
+  }
+  .card img{
+    overflow: hidden;
+    transition: ease-in-out .3s;
+  }
+
+  .card-img-top{
+    overflow: hidden;
+  }
+
+  .card img:hover{
   scale: 1.1;
-}
+  }
 
-#gambar img {
-  transition: ease-in-out 0.2s;
-}
+  .card h5,
+  .card p {
+    line-height: 0.4cm;
+    font-size: medium;
+    font-weight: bold;
+  }
 
-#gambar img:hover {
-  scale: 1.1;
-}
-.card{
-  border-bottom-right-radius: 20%;
-  overflow: hidden;
-  transition: ease-in-out .3s;
-}
-.card img{
-  overflow: hidden;
-  transition: ease-in-out .3s;
-}
+  #cover{
+    position: absolute;
+    height: 150px;
+    width: 90%;
+    z-index: 2;
+    font-size: xx-large;
+  }
 
-.card-img-top{
-  overflow: hidden;
-}
+  #isi{
+    position: relative;
+    z-index: 1;
+  }
 
-.card img:hover{
- scale: 1.1;
-}
+  #percaya{
+    margin: 2cm;
+    margin-bottom: 5cm;
+    border-style: none none none solid;
+    border-width: 0.3cm;
+    border-color: rgb(255, 221, 0);
+    box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.50);
+    padding:2cm;
+    width: max-content;
+  }
 
-.card h5,
-.card p {
-  font-size: medium;
-  font-weight: bold;
-}
+  footer{
+    background-color: rgba(0, 0, 0, 0.352);
+  }
 
-footer{
-  background-color: rgba(0, 0, 0, 0.352);
-}
+  footer ul li {
+    list-style: none;
+    line-height: 2.3rem;
+  }
 
-footer ul li {
-  list-style: none;
-  line-height: 2.3rem;
-}
+  footer ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
 
-footer ul li a {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-}
+  footer p {
+    font-size: small;
+  }
 
-footer p {
-  font-size: small;
-}
-
-::-webkit-scrollbar {
-  display: none;
-}
+  ::-webkit-scrollbar {
+    display: none;
+  }
