@@ -2,22 +2,24 @@ body {
   background-image: url("../image/bg3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 nav {
   background-image: url("../image/bannerungu48.webp");
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: Arial, Helvetica, sans-serif;
+  background-position: center;
+  font-family: Arial, Helvetica, sans-serif;;
 }
      
 nav ul li a {
-  border-radius: 20%;
+  border-radius: 10px;
 }
 
 nav ul li a:hover {
   background-color: rgba(0, 0, 0, 0.349);
-  border-radius: 20%;
+  border-radius: 10px;
 }
 
 nav ul li a img {
